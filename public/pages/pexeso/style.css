@@ -1,0 +1,175 @@
+/*Atributy pre prvu obrazovku*/
+.zakladnaObrNadpis {
+  background-color: #00ffff;
+  height: 100px;
+  width: 1000px;
+  margin: auto;
+  border-radius: 12px;
+  border: 3px solid #ff0000;
+}
+#zakladnyNadpis {
+  font-size: 45px;
+  color: #4517ff;
+  font-family: arial;
+  text-align: center;
+}
+.zakladnaObr {
+  background-color: #00ffff;
+  height: 600px;
+  width: 1000px;
+  margin: auto;
+  border-radius: 12px;
+  border: 3px solid #ff0000;
+}
+#pexesoButton {
+  height: 100px;
+  width: 200px;
+  margin: 250px 400px;
+  background-color: #cc99ff;
+  border-radius: 12px;
+  border: 5px solid #9900cc;
+  font-size: 30px;
+  font-family: Arial;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+#pexesoButton:hover {
+  background-color: #9900cc;
+  font-size: 40px;
+  border: 5px solid white;
+  height: 110px;
+  width: 220px;
+}
+/*Atributy pre druhu obrazovku*/
+.hornaLista {
+  font-size: 12px;
+  background-color: #66ff66;
+  height: 100px;
+  width: 1000px;
+  margin: auto;
+  border-radius: 12px;
+  border: 3px solid #ff0000;
+
+}
+#nadpis {
+  font-size: 45px;
+  color: #ff0000;
+  font-family: arial;
+  text-align: center;
+}
+#back {
+  height: 50px;
+  width: 100px;
+  margin: 5px 5px;
+  background-color: #cc99ff;
+  border-radius: 12px;
+  border: 3px solid #9900cc;
+  font-size: 20px;
+  font-family: Arial;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.login {
+  background-color: #66ff66;
+  height: 600px;
+  width: 1000px;
+  margin: auto;
+  border-radius: 12px;
+  border: 3px solid #ff0000;
+}
+#playButton {
+  height: 100px;
+  width: 200px;
+  margin: 250px 400px;
+  background-color: #cc99ff;
+  border-radius: 12px;
+  border: 5px solid #9900cc;
+  font-size: 30px;
+  font-family: Arial;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+#playButton:hover {
+  background-color: #9900cc;
+  font-size: 40px;
+  border: 5px solid white;
+  height: 110px;
+  width: 220px;
+}
+/*Atributy pre hernu obrazovku Pexeso*/
+#nadpis2 {
+  font-size: 45px;
+  color: #ff0000;
+  font-family: arial;
+  margin: -10px 400px;
+}
+.backButton {
+  height: 50px;
+  width: 100px;
+  margin: 5px 5px;
+  background-color: #cc99ff;
+  border-radius: 12px;
+  border: 3px solid #9900cc;
+  font-size: 20px;
+  font-family: Arial;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.backButton:hover {
+  background-color: #9900cc;
+  font-size: 30px;
+  border: 5px solid white;
+}
+.gameArray {
+  background-color: #66ff66;
+  height: 1000px;
+  width: 1000px;
+  margin: auto;
+  border-radius: 12px;
+  border: 3px solid #ff0000;
+}
+#karta1 {
+  margin: 100px 5px;
+  width:100px;
+  height:140px;
+}
+/*
+#karta2 {
+  margin: 100px 5px;
+  width:130px;
+  height:170px;
+}
+#karta3 {
+  margin: 100px 5px;
+  width:130px;
+  height:170px;
+}
+#karta4 {
+  margin: 100px 5px;
+  width:130px;
+  height:170px;
+}*/
+.btn-group button {
+  background-color: #ffff66;
+  border: solid #6666ff;
+  color: #9900cc;
+  border-radius: 12px;
+  margin: 250px 20px;
+  width: 130px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+.btn-group button:hover {
+  background-color: #6666ff;
+  color: white;
+  font-size: 25px;
+  width: 135px;
+  height: 55px;
+  transition-duration: 0.5s;
+}

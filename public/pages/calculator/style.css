@@ -1,0 +1,101 @@
+body {
+  background-image: url(background.jpg);
+}
+
+.backgroundNadpis {
+  background-color: #66ff66;
+  display: block;
+  border: 3px solid green;
+  text-align: center;
+  margin: auto;
+  width: 400px;
+  height: 100px;
+}
+.nadpis {
+  font-size: 20px;
+  color: purple;
+  font-family: Arial;
+}
+.backgroundCalculator {
+  background-color:  #66ff66; /*#3399ff;*/
+  display: block;
+  border: 3px solid #1218fd;
+    height: 450px;
+    width: 320px;
+    margin: auto;
+    text-align: center;
+}
+.backgroundVysledok {
+  background-color: black;
+  text-align: right;
+}
+.groove {
+  border-style: groove;
+  border-color: red;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Arial;
+  color: white;
+  height: 40px;
+  width: 320px;
+}
+.btn-group button {
+  background-color: #66ccff;
+  border: solid #0000ff;
+  color: white;
+  border-radius: 12px;
+  margin: 2px 2px;
+  width: 70px;
+  height: 70px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+.btn-group button:hover {
+  background-color: #0000ff;
+  transition-duration: 0.5s;
+}
+#rovnaSa {
+  height: 70px;
+  width: 148px;
+  background-color: #cc99ff;
+  border:solid #cc00ff;
+}
+#rovnaSa:hover {
+  background-color: #cc00ff;
+}
+#ce {
+  background-color:#ff9999;
+  border: solid #ff0000;
+}
+#ce:hover {
+  background-color: #ff0000;
+}
+#x {
+  background-color: #cc99ff;
+  border:solid #cc00ff;
+}
+#x:hover {
+  background-color: #cc00ff;
+}
+#plus {
+  background-color: #cc99ff;
+  border:solid #cc00ff;
+}
+#plus:hover {
+  background-color: #cc00ff;
+}
+#minus {
+  background-color: #cc99ff;
+  border:solid #cc00ff;
+}
+#minus:hover {
+  background-color: #cc00ff;
+}
+#deleno {
+  background-color: #cc99ff;
+  border:solid #cc00ff;
+}
+#deleno:hover {
+  background-color: #cc00ff;
+}

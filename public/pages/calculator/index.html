@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <script src="main.js"></script>
+  <body>
+    <div class="backgroundNadpis">
+      <p id="nadpisKalkulacka" class="nadpis">JavaScript Calculator</p>
+    </div>
+    <br>
+    <div class="backgroundCalculator">
+      <div class="backgroundVysledok">
+        <div class="groove">
+          <p id="vysledek"></p>
+        </div>
+      </div>
+      <br>
+      <div class="btn-group">
+         <button onclick="ButtonClick('(')">(</button>
+         <button onclick="ButtonClick(')')">)</button>
+         <button onclick="ButtonClick(',')">,</button>
+         <button id = "x" onclick="ButtonClick('*')">x</button>
+         <br>
+         <button onclick="ButtonClick('7')">7</button>
+         <button onclick="ButtonClick('8')">8</button>
+         <button onclick="ButtonClick('9')">9</button>
+         <button id = "plus" onclick="ButtonClick('+')">+</button>
+         <br>
+         <button onclick="ButtonClick('4')">4</button>
+         <button onclick="ButtonClick('5')">5</button>
+         <button onclick="ButtonClick('6')">6</button>
+         <button id = "minus" onclick="ButtonClick('-')">-</button>
+         <br>
+         <button onclick="ButtonClick('1')">1</button>
+         <button onclick="ButtonClick('2')">2</button>
+         <button onclick="ButtonClick('3')">3</button>
+         <button id = "deleno" onclick="ButtonClick('/')">/</button>
+         <br>
+         <button id = "ce" onclick="CLR()">CE</button>
+         <button onclick="ButtonClick('0')">0</button>
+         <button id = "rovnaSa" onclick="equals()">=</button>
+      </div>
+    </div>
+  </body>
+</html>

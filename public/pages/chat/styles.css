@@ -1,0 +1,42 @@
+body{
+    background-image: url(background.jpg);
+}
+
+button{
+    background-color: #9ae59a;
+    color: black;
+    border: 2px solid grey;
+    font-size: 20px;
+    cursor:pointer;
+    border-radius:12px;
+}
+button:hover {
+    background-color: #2fb62f;
+    color: white;
+    transition-duration: 1s;
+}
+#window {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 600px;
+    height: 500px;
+
+}
+#output{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    word-wrap: break-word;
+}
+#input {
+    width: 600px;
+    height: 50px;
+    background-color: white;
+    clear: both;
+    float: left;
+}
